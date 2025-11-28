@@ -13,7 +13,7 @@ const Banner = ({ banners }) => {
         </span>
       </div>
 
-      <div className="flex border-b-2 border-gray-400 mb-12 mt-3">
+      <div className="flex border-b-2 border-gray-400 mb-13 mt-3">
         {limitedBanners?.length > 0 ? (
           limitedBanners.map((banner) => (
             <div
